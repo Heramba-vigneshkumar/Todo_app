@@ -82,6 +82,12 @@ body{
     display: none;
 }
 
+@media  (width <= 768px) {
+    .add-btn{
+        padding: 14px 24px;
+    }
+}
+
 @media  (width < 576px) {
     .container{
         display: flex;
@@ -97,10 +103,10 @@ body{
         width: 250px;
     }
     .add-btn{
-        padding: 13px 20px;
+        padding: 13px 18px;
         font-size: 20px;
         right: 20px;
-        bottom: 20px;
+        bottom: 40px;
     }
 }
 
